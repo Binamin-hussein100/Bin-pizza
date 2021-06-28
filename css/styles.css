@@ -39,14 +39,7 @@
    
 }
 
-#btn {
-    border-radius: 100%;
-    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.408) ,rgba(255, 249, 230, 0.299), rgba(102, 255, 0,0.606));;
-    height: 10vh;
-    width: 10%;
-    border: ridge;
-    
-}
+
 
 #size {
     justify-content: space-between;
