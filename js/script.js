@@ -80,3 +80,26 @@ Pizza.prototype.sizePrice = function(){
 
     
 };
+
+
+
+// $(document).ready(function(e){
+//     e.preventDefault();
+//     var pizza1 = $("#service")
+//     $("button#pizza1").click(function(){
+//             $("#more").append(pizza1);
+//     })
+    
+// });
+
+$(document).ready(function(){
+    $("#pizza1").click(function(){
+        $("#service").toggle();
+        $("#secondpizza").toggle();
+    });
+
+    // $("#development").click(function(){
+    //     $("#dev-show").toggle();
+    //     $("#dev-hide").toggle();
+    // });
+

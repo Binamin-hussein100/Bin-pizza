@@ -76,3 +76,12 @@
      margin-top: 5%;
      
  }
+
+ #pizza1{
+     margin-left: 45%;
+     margin-top: 5%;
+ }
+
+ #secondpizza {
+     display: none;
+ }
