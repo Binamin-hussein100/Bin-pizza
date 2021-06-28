@@ -6,9 +6,6 @@ $(document).ready(function(){
    }
 })
 
-pizza.prototype.pizzaPrice = function(){
-    return this.crustPrice()+ this.toppingPrice() + this.sizePrice();
-};
 
 
 Pizza.prototype.toppingPrice = function(){
